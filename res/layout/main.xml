@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<TextView  
+    android:layout_width="fill_parent" android:layout_marginTop="25dp" android:layout_marginBottom="50dp"
+    android:layout_marginRight="5dp" android:layout_marginLeft="5dp"
+    android:layout_height="wrap_content" android:text="@string/hello" android:singleLine="false"/>
+<TextView  
+    android:layout_width="fill_parent" android:layout_marginTop="50dp" android:layout_marginBottom="5dp"
+    android:layout_marginRight="5dp" android:layout_marginLeft="5dp"
+    android:layout_height="wrap_content" android:text="@string/show_lyrics"/>
+<Button android:layout_marginRight="5dp" android:layout_marginLeft="5dp" 
+	android:id="@+id/showLyrics" android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" android:text="@string/load_lyrics"></Button>
+</LinearLayout>
