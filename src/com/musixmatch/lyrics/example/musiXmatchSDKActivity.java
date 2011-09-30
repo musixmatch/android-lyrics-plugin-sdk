@@ -25,7 +25,7 @@ public class musiXmatchSDKActivity extends Activity {
         
         // Please uncomment this line when approved and before going in production
         //
-        // lyricsPlugin.setTestMode(false);
+        lyricsPlugin.setTestMode(false);
 
         Button btn = (Button) findViewById(R.id.showLyrics);
 		btn.setOnClickListener(new OnClickListener() {
