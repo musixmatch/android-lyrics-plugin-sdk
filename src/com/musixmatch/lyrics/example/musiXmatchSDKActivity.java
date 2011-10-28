@@ -51,5 +51,15 @@ public class musiXmatchSDKActivity extends Activity {
 
     	super.onResume();
     }
+    
+    @Override
+    protected void onDestroy() {
+    	// TODO Auto-generated method stub
+    	if (lyricsPlugin.getIsBound())
+    		lyricsPlugin.doUnbindService();
+    	super.onDestroy();
+    }
+    
+    
 
 }
